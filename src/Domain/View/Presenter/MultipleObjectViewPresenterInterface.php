@@ -11,6 +11,6 @@ interface MultipleObjectViewPresenterInterface
         string $displayFormat,
         ?int $nbTotal = null,
         ?int $pageNumber = null,
-        ?int $nbPerPage = null
+        ?int $nbPerPage = null,
     ): MultipleViewModelWrapperInterface;
 }

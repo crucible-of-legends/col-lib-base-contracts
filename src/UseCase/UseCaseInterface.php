@@ -4,5 +4,4 @@ namespace COL\Librairy\UseCase;
 
 interface UseCaseInterface
 {
-
 }
