@@ -8,7 +8,6 @@ grumphp:
       diff: true
     jsonlint: ~
     yamllint: ~
-    phpunit: ~
   ascii:
     failed: ~
     succeeded: ~
