@@ -1,0 +1,9 @@
+###> symfony/framework-bundle ###
+/.env.local
+/.env.*.local
+/vendor/
+###< symfony/framework-bundle ###
+
+.idea/
+docker-compose.yaml
+composer.lock
