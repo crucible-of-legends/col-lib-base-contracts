@@ -27,6 +27,9 @@ reup:
 
 start_working: vendor
 
+fix_style: up
+	@$(DOCKER_EXEC) php vendor/bin/php-cs-fixer fix src
+
 vendor: up
 	@$(DOCKER_EXEC) php composer install --prefer-dist
 

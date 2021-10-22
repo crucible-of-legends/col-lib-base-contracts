@@ -6,8 +6,13 @@ VOLUME /srv/cache
 RUN apt-get update -qq \
     && apt-get install -y --no-install-recommends \
         git unzip libzip-dev \
+    && pecl install mongodb \
+    && docker-php-ext-enable \
+        mongodb \
     && docker-php-ext-install -j$(nproc) \
         zip \
+        mysqli \
+        pdo_mysql \
     && apt-get clean \
     && pecl clear-cache \
     && rm -rf /var/lib/apt/lists/* \
