@@ -1,6 +1,6 @@
 <?php
 
-namespace COL\Librairy\Domain\DataInteractor\Repository;
+namespace COL\Librairy\BaseContracts\Domain\DataInteractor\Repository;
 
 interface RepositoryInterface
 {

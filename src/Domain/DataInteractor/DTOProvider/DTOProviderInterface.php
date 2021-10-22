@@ -1,8 +1,8 @@
 <?php
 
-namespace COL\Librairy\Domain\DataInteractor\DTOProvider;
+namespace COL\Librairy\BaseContracts\Domain\DataInteractor\DTOProvider;
 
-use COL\Librairy\Domain\DataInteractor\DTO\DTOInterface;
+use COL\Librairy\BaseContracts\Domain\DataInteractor\DTO\DTOInterface;
 
 interface DTOProviderInterface
 {

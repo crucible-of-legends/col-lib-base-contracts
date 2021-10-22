@@ -1,6 +1,6 @@
 <?php
 
-namespace COL\Librairy\Domain\DataInteractor\DTO;
+namespace COL\Librairy\BaseContracts\Domain\DataInteractor\DTO;
 
 interface DTOInterface
 {

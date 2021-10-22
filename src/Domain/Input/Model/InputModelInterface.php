@@ -1,6 +1,6 @@
 <?php
 
-namespace COL\Librairy\Domain\DataInteractor\InputModel;
+namespace COL\Librairy\BaseContracts\Domain\DataInteractor\InputModel;
 
 interface InputModelInterface
 {

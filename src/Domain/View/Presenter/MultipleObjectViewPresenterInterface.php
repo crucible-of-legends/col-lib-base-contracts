@@ -1,8 +1,8 @@
 <?php
 
-namespace COL\Librairy\Domain\DataInteractor\View\Presenter;
+namespace COL\Librairy\BaseContracts\Domain\DataInteractor\View\Presenter;
 
-use COL\Librairy\Domain\DataInteractor\View\Wrapper\MultipleViewModelWrapperInterface;
+use COL\Librairy\BaseContracts\Domain\DataInteractor\View\Wrapper\MultipleViewModelWrapperInterface;
 
 interface MultipleObjectViewPresenterInterface
 {
