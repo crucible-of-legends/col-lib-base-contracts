@@ -1,6 +1,6 @@
 <?php
 
-namespace COL\Librairy\UseCase;
+namespace COL\Librairy\BaseContracts\UseCase;
 
 interface UseCaseInterface
 {
