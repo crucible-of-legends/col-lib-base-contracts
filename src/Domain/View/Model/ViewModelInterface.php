@@ -1,6 +1,6 @@
 <?php
 
-namespace COL\Librairy\BaseContracts\Domain\DataInteractor\View\Model;
+namespace COL\Librairy\BaseContracts\Domain\View\Model;
 
 interface ViewModelInterface
 {

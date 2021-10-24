@@ -1,6 +1,6 @@
 <?php
 
-namespace COL\Librairy\BaseContracts\Domain\DataInteractor\View\Wrapper;
+namespace COL\Librairy\BaseContracts\Domain\View\Wrapper;
 
 interface SingleViewModelWrapperInterface
 {
