@@ -1,6 +1,6 @@
 <?php
 
-namespace COL\Librairy\BaseContracts\Infrastructure\Adatper\Database;
+namespace COL\Librairy\BaseContracts\Infrastructure\Adapter\Database;
 
 use COL\Librairy\BaseContracts\Domain\DataInteractor\DTO\DTOInterface;
 
